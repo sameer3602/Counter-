@@ -1,0 +1,42 @@
+*{
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+#wrapper{
+    background-color: rgb(66, 66, 108);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.container{
+    color: #e7e7e7;
+    font: medium;
+    size: 20px;
+
+}
+.func{
+    background-color: white;
+    display: flex;
+    size: 25px;
+    border-radius: 0.125rem;
+    gap:12px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding: 3px;
+}
+.plus{
+    padding-right:5px;
+    border-color: #bfbfbf;
+}
+.minus{
+    padding-right:5px;
+    border-color: #bfbfbf;
+}
+.num{
+    font-weight: 700;
+    border-color: #bfbfbf;
+}
